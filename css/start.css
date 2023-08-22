@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* General */
+
+* {
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* Containers */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.containerStart1 {
+    display: flex;
+    margin: 146px 6.1719% 134px 6.8351%;
+    width: 35.3125%;
+}
+
+.containerStart2 {
+    display: flex;
+    text-align: center;
+    width: 35.3125%;
+    height: 760px;
+    vertical-align: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+#startTitle {
+    font-size: 39px;
+    font-weight: 700;
+    width: 473px;
+    margin: 223px 0px 14px;
+}
+
+#startContent {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    width: 443px;
+    margin-bottom: 69px;
+    }
+
+/* Buttons */
+
+button:hover {
+    background-color: #FFFF7D;
+    cursor: pointer;
+    color: black;
+}
+
+.buttonUpLeft {
+    display: inline-block;
+    font-size: 22px;
+    color: #FFF;
+    width: 199px;
+    height: 35.554px;
+    text-align: center;
+    border-radius: 35px;
+    background-color: #3EB25E;
+    border-color: transparent;
+    margin-right: 27px;
+}
+
+.buttonUpRight {
+    display: inline-block;
+    font-size: 22px;
+    color: #FFF;
+    width: 199px;
+    height: 35.554px;
+    text-align: center;
+    border-radius: 35px;
+    background-color: #3EB25E;
+    border-color: transparent;
+}
+
+@media screen and (max-width: 500px) {
+    .imgResp {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+    } 
+
+    .containerStart1 {
+        width: 75%;
+        margin: 5% 0px 27.88px 15%;
+    }
+    
+    .containerStart2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    #startTitle {
+        font-size: 30px;
+        width: 85%;
+        margin-top: 0px;
+        margin-bottom: 22px;
+    }
+
+    #startContent {
+        font-size: 18px;
+        width: 333px;
+        margin-bottom: 17px;
+    }
+
+    .buttonUpLeft {
+        font-size: 15px;
+        width: 142px;
+        height: 26px;
+    }
+    
+    .buttonUpRight {
+        font-size: 15px;
+        width: 142px;
+        height: 26px;
+        margin-bottom: 88px;
+    }
+}

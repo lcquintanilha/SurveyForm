@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/survey1.css" media="screen" />
+    <title>Survey - Page 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="containerStart1"><img src="../img/two.jpg" class="imgResp"></div>
+        <div class="containerSurvey2">
+            <div>
+                <label class="surveyTitle" id="page1Ask1">What is the status of your account?</label>
+                <form>
+                <select class="selectSurvey" id="page1Answer1">
+                    <option value="newMember">I have not created an account yet.</option>
+                    <option value="oldMember">I already have an account.</option>
+                </select>
+                <label class="surveyTitle" id="page1Ask2">In which financial markets do you operate?</label>
+                <div class="label1">
+                    <input type="checkbox" class="checkboxSurvey" name="options" id="page1Option1" value="stockMkt"><label for="page1Option1"></label> stock market</input><br>
+                    <input type="checkbox" class="checkboxSurvey" name="options" id="page1Option2" value="forExch"><label for="page1Option2"></label> foreign exchange<br>
+                    <input type="checkbox" class="checkboxSurvey" name="options" id="page1Option3" value="commodity"><label for="page1Option3"></label> commodity<br>
+                    <input type="checkbox" class="checkboxSurvey" name="options" id="page1Option4" value="bondMkt"><label for="page1Option4"></label> bond market<br>
+                    <input type="checkbox" class="checkboxSurvey" name="options" id="page1Option5" value="cryptoMkt"><label for="page1Option5"></label> cryptocurrency market<br>
+                </div>
+                </form>
+                <br>
+                <div>
+                    <a href="./startSurvey.html"><button class="buttonUpLeft">Back</button></a>
+                    <a href="./survey2.html"><button class="buttonUpRight" id="buttonNext1">Next</button></a>
+                    <a href="./survey2.html"><button class="skip">Skip</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/survey1.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* General */
+
+* {
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+/* Containers */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.containerStart1 {
+    display: flex;
+    margin: 146px 6.1719% 134px 6.8351%;
+    width: 35.3125%;
+}
+
+.containerSurvey2 {
+    display: flex;
+    text-align: left;
+    width: 35.3125%;
+    height: 760px;
+    vertical-align: top;
+    align-items: center;
+    flex-direction: column;
+}
+/* Text content */
+
+.surveyTitle {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* Buttons */
+
+button:hover {
+    background-color: #FFFF7D;
+    cursor: pointer;
+    color: black;
+}
+
+.buttonUpLeft {
+    display: inline-block;
+    font-size: 22px;
+    color: #FFF;
+    width: 199px;
+    height: 35.554px;
+    text-align: center;
+    border-radius: 35px;
+    background-color: #3EB25E;
+    border-color: transparent;
+    margin-right: 27px;
+}
+
+.buttonUpRight {
+    display: inline-block;
+    font-size: 22px;
+    color: #FFF;
+    width: 199px;
+    height: 35.554px;
+    text-align: center;
+    border-radius: 35px;
+    background-color: #3EB25E;
+    border-color: transparent;
+}
+
+.skip {
+    display: inline-block;
+    font-size: 22px;
+    color: #FFF;
+    width: 418px;
+    height: 36px;
+    text-align: center;
+    border-radius: 35px;
+    background-color: #3EB25E;
+    border-color: transparent;
+    margin-top: 16px;
+}
+
+#page3ask1 {
+    margin: 175px 0px 10px 0px;
+}
+
+#page3txt1 {
+    width: 459px;
+    height: 225px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin-bottom: 62px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .imgResp {
+        width: 100%;
+    }
+    
+    .container {
+        flex-direction: column;
+    } 
+
+    .surveyTitle {
+        display: flexbox;
+        font-size: 16px;
+        width: 55.8%px;
+        height: 20px;
+        margin: 0px 0px 9px 0px;
+    }
+
+    .containerStart1 {
+        display: inline-flex;
+        margin: 61px 76px 20px 44px;
+        width: 359px;
+    }
+    
+    .containerSurvey2 {
+        width: 261px;
+        height: 100%;
+        margin-bottom: 52px;
+    }    
+
+    .buttonUpLeft {
+        font-size: 15px;
+        width: 140px;
+        height: 26px;
+        margin-right: 18px;
+    }
+    
+    .buttonUpRight {
+        font-size: 15px;
+        width: 140px;
+        height: 26px;
+    }
+
+    .skip {
+        width: 302px;
+        height: 26px;
+        font-size: 16px;
+    }
+
+    #page3ask1 {
+        margin: 0px 0px 10px 23px;
+        width: 261px;
+        height: 59px;
+    }
+
+    #page3txt1 {
+        width: 278px;
+        height: 131px;
+        margin: 0px 0px 23px 7px;
+    }
+}

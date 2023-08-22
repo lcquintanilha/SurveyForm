@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.containerEnd {
+    display: flex;
+    margin: 30px 0px 0px 33%;
+    width: 33%;
+    text-align: center;
+}
+
+.imgResp {
+    width: 100%;
+}
+
+#thanks {
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+@media screen and (max-width: 500px) {
+
+.containerEnd {
+    margin: 20px 20px 0px 20px;
+    width: 85%;
+}
+
+}
